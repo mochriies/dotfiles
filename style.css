@@ -1,0 +1,31 @@
+* {
+    font-family: "imwriting mono nerd font";
+    font-size: 12px;
+}
+
+window#waybar {
+    background: rgba(7, 5, 10, 0.4);
+    border: none;
+}
+
+
+#workspaces {
+    margin: 0 8px;
+}
+
+#workspaces button {
+    color: rgba(140, 140, 140, 0.7);
+    padding: 0 7px;
+}
+
+#workspaces button.active {
+    color: rgba(244, 241, 248, 0.7);
+}
+
+#clock,
+#network,
+#pulseaudio,
+#battery {
+    color: rgba(244, 241, 248, 0.7);
+    padding: 0 12px;
+}

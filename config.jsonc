@@ -1,0 +1,75 @@
+{
+    "layer": "top",
+    "position": "top",
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "battery"
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "일",
+            "2": "이",
+            "3": "삼",
+            "4": "사",
+            "5": "오",
+            "6": "육",
+            "7": "칠",
+            "8": "팔",
+            "9": "구",
+            "10": "십"
+        }
+    },
+
+
+
+    "clock": {
+        "format": "{:%A %H:%M}"
+    },
+
+    "network": {
+        "format-wifi": "{essid} ",
+        "format-disconnected": "󰖪"
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% ",
+        "format-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "default": [
+                "",
+                "" ],
+            },
+        },
+
+
+    "battery": {
+        "interval": 60,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-icons": [
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "max-length": 25
+    },
+}
